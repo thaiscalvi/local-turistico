@@ -18,6 +18,13 @@ footer {
   letter-spacing: 0px;
   text-align: center; /* alinhar o texto ao centro como está no Figma */
   color: #333333; /* cor */
+  padding-bottom: 48px;
+}
+
+footer img {
+  width: 16px; /* Ou 20px se quiser um pouquinho maior */
+  height: auto; /* Para manter a proporção */
+  vertical-align: middle; /* Deixa alinhado certinho com o texto */
 }
 
 body {
@@ -81,4 +88,93 @@ h1, h2, h3 {
   font-weight: bold;
   font-size: 16px;
   color: #E95E10;
+}
+
+.description-final {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #333333; 
+  line-height: 1.5;
+}
+
+.container {
+  padding: 88px 80px 137px 80px;
+}
+
+.title-page {
+  display: flex;
+  flex-direction: column;
+  gap: 0px; 
+}
+
+.title-page p,
+.title-page h1 {
+  margin: 0; 
+}
+
+.title-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0px; 
+}
+
+.cover {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  gap: 2px; /* Deixa o subtítulo (p) e o título (h2) juntinhos */
+}
+
+.section-header p,
+.section-header h2 {
+  margin: 0; /* Remove margens internas */
+}
+
+.section-description {
+  margin-top: 8px; /* Cria um espaço de 8px entre o título e o parágrafo */
+}
+
+.card-image {
+  margin-top: 10px; /* espaço entre texto e imagem */
+}
+
+.card-travel {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* espaço entre imagem e textos, pode ajustar */
+  margin-bottom:32px; /* separação entre os cards */
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 20px; /* se quiser canto arredondado */
+}
+
+.content-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* esse é o espaçamento entre título, descrição e "bom para" */
+}
+
+.card-title {
+  margin: 0;
+}
+
+.card-description {
+  margin: 0;
+}
+
+.highlight-text {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 16px; /* um pequeno recuo da lista */
 }
