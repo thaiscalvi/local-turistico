@@ -1,0 +1,84 @@
+img {
+  border-radius: 28px;  /* Adicionar o arredondamento da borda */
+  width: 100%; /* imagem ocupa 100% do tamanho disponível pra ela */
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #d9d9d9;
+}
+
+footer {
+  font-family: 'Alice', serif;
+  font-weight: 400; /* Regular é 400 */
+  font-size: 16px;
+  line-height: 150%; /* Ou pode usar line-height: 24px; que é 16px * 1.5 */
+  letter-spacing: 0px;
+  text-align: center; /* alinhar o texto ao centro como está no Figma */
+  color: #333333; /* cor */
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; /* Regular padrão */
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+.description-initial {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 400; /* Regular */
+  line-height: 150%;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.headline {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #E1624f; /* OU o tom de vermelho mais próximo que você desejar */
+  text-transform: uppercase; /* Se quiser deixar tudo MAIÚSCULO como no Figma */
+  letter-spacing: 0px;
+}
+
+.highlight-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #000000; /* ou um cinza escuro se quiser ajustar depois */
+}
+
+.historia {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #0C51A7; 
+}
+
+.casais {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #591B98;
+}
+
+.familias {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #E5245E; 
+}
+
+.orcamento {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #E95E10;
+}
