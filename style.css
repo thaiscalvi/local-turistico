@@ -178,3 +178,17 @@ ul {
   margin: 0;
   padding-left: 16px; /* um pequeno recuo da lista */
 }
+
+@media (max-width: 768px) {
+
+  .container {
+    padding: 16px; /* reduz a margem interna nas laterais */
+    max-width: 100%; /* faz o container ocupar toda a largura disponível */
+  }
+
+  .card-image {
+    width: 100%;
+    height: auto;
+  }
+
+}
